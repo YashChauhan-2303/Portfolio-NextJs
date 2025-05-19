@@ -8,12 +8,48 @@ import bytetune from './projectsImage/Napster.jpg';
 import querytalk from './projectsImage/QueryTalk.jpg';
 import loopmit from './projectsImage/LoopMIT-GUI.jpg';
 
+// const projects = [
+//   { id: 1, year: 2025, title: "Invento", description: "A web application for managing inventory.", image: invento },
+//   { id: 2, year: 2025, title: "ByteTune", description: "An old style music player", image: bytetune },
+//   { id: 3, year: 2025, title: "QueryTalk", description: "A web application to convert text to speech to SQL query", image: querytalk },
+//   { id: 4, year: 2024, title: "LoopMIT GUI", description: "A GUI to control LoopMIT Pod", image: loopmit }
+// ];
+
 const projects = [
-  { id: 1, year: 2025, title: "Invento", description: "A web application for managing inventory.", image: invento },
-  { id: 2, year: 2025, title: "ByteTune", description: "An old style music player", image: bytetune },
-  { id: 3, year: 2025, title: "QueryTalk", description: "A web application to convert text to speech to SQL query", image: querytalk },
-  { id: 4, year: 2024, title: "LoopMIT GUI", description: "A GUI to control LoopMIT Pod", image: loopmit }
+  {
+    id: 1,
+    year: 2025,
+    title: "Invento",
+    description:
+      "An intuitive inventory management platform built for modern businesses. Track stock, streamline orders, and gain real-time insights — all from a sleek, responsive dashboard.",
+    image: invento,
+  },
+  {
+    id: 2,
+    year: 2025,
+    title: "ByteTune",
+    description:
+      "A nostalgic yet modern music player inspired by the Napster era — featuring playlists, retro vibes, and a smooth audio experience wrapped in an old-school UI.",
+    image: bytetune,
+  },
+  {
+    id: 3,
+    year: 2025,
+    title: "QueryTalk",
+    description:
+      "Talk to your data — literally. QueryTalk transforms natural speech into SQL queries with AI, enabling effortless voice-driven database interaction.",
+    image: querytalk,
+  },
+  {
+    id: 4,
+    year: 2024,
+    title: "LoopMIT GUI",
+    description:
+      "A custom-built graphical interface for controlling LoopMIT Pod systems, offering seamless parameter tuning, diagnostics, and real-time telemetry visualization.",
+    image: loopmit,
+  },
 ];
+
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 
