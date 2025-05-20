@@ -1,9 +1,9 @@
 import {
   Github,
   Linkedin,
-  Twitter,
-  Facebook,
-  Instagram,
+  // Twitter,
+  // Facebook,
+  // Instagram,
   Send,
 } from "lucide-react";
 

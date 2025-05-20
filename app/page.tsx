@@ -4,7 +4,7 @@ import { Hero } from "./components/Hero";
 import { KeyMetrics } from "./components/KeyMetrics";
 import { Navbar } from "./components/Navbar";
 import { Portfolio } from "./components/Portfolio";
-import { Services } from "./components/Services";
+// import { Services } from "./components/Services";
 import { Stack } from "./components/Stack";
 
 export default function Home() {
