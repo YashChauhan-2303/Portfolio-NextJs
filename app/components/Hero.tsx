@@ -83,7 +83,9 @@ export const Hero = () => {
                     scale: 0.98, 
                     opacity: 0.8,
             }}
-                className="flex w-fit items-center gap-2 rounded-full px-4 py-2">
+                className="flex w-fit items-center gap-2 rounded-full px-4 py-2"
+                onClick={() => window.open('https://drive.google.com/file/d/1vguiJTxuqMBx9jKn1sBnuy3OnJRqBxU_/view?usp=sharing', '_blank')}
+                >
                     Download Resume
                 </motion.button>
             </div>

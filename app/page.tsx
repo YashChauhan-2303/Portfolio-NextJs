@@ -1,4 +1,5 @@
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
 import { KeyMetrics } from "./components/KeyMetrics";
 import { Navbar } from "./components/Navbar";
@@ -16,6 +17,7 @@ export default function Home() {
       <Stack/>
       {/* <Services/> */}
       <Contact />
+      <Footer/>
     </>
   );
 }
