@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Yash Chauhan's Portfolio - Next.js
 
-## Getting Started
+Welcome to my personal portfolio website built using **Next.js**!  
+This project showcases my skills, projects, resume, and ways to connect with me.
 
-First, run the development server:
+## 🔗 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Visit the live site: [https://yashchauhan-portfolio.vercel.app/](https://yashchauhan-portfolio.vercel.app/)
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: React Icons
+- **Deployment**: Vercel
+
+---
+
+## 📁 Folder Structure
+
+```
+.
+├── components/         # Reusable components (Navbar, Footer, Cards)
+├── pages.tsx              
+├── public/             # Static assets
+├── styles/             # Global CSS
+└── README.md           # You're here!
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Responsive and mobile-friendly design
+- Smooth animations and transitions
+- SEO optimized using `next/head`
+- Easy-to-update project and experience sections
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📦 Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run locally:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Clone the repository
+git clone https://github.com/YashChauhan-2303/Portfolio-NextJs.git
 
-## Deploy on Vercel
+# Go into the directory
+cd Portfolio-NextJs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Install dependencies
+npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Start the development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🛠️ Customization
+
+You can easily update your:
+
+- Projects: Edit `components/portfolio.tsx`
+- Experience: Edit `components/services.tsx`
+- Social links: Update in `components/Footer.js` 
+- About info: Modify content in `components/Hero.tsx`
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙋‍♂️ About Me
+
+I'm **Yash Chauhan**, a passionate developer exploring full-stack web development and building awesome projects.  
+Let's connect:
+
+- 🌐 [Portfolio Website](https://yashchauhan-portfolio.vercel.app/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/yash-chauhan-465644274/)
+- 📧 yashchauhan2303@gmail.com
+- 🐙 [GitHub](https://github.com/YashChauhan-2303)
+
+---
+
+## ⭐️ Support
+
+If you like this project, consider giving it a ⭐️ on [GitHub](https://github.com/YashChauhan-2303/Portfolio-NextJs)!
