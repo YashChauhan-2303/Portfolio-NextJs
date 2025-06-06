@@ -3,6 +3,7 @@
 import { useEffect } from "react"
 import { useMotionValue, useMotionTemplate, animate, motion } from "framer-motion";
 import profilepic from './profilepic.jpg'
+import profilePic from '../../public/linkedinProfile.jpeg'
 import Image from 'next/image';
 import python from './python.svg'
 import cpp from './cpp.png'
@@ -44,7 +45,7 @@ export const Hero = () => {
                 </h1>
                 <div>
                     <Image
-                        src={profilepic}
+                        src={profilePic}
                         alt="Profile Picture"
                         width={250}
                         />
